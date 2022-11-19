@@ -1,0 +1,323 @@
+/* -------------
+ * Buttons
+ * ------------- */
+button {margin:0;padding:0;border:none;background-color:transparent;cursor:pointer;overflow:visible;outline:none;moz-outline:none;}
+*:first-child+html button[type]{width:1;} /* IE7 */
+
+button span {
+/*	background: transparent url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/css/elements/btn_right.gif) no-repeat scroll right top;*/
+	display: block;
+	float: left;
+	padding: 0px 4px 0px 0px; /* sliding doors padding */
+	margin: 0px;
+}
+
+button span span {
+	background: transparent url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/css/elements/btn_left.gif) no-repeat;
+	color: #FFFFFF;
+	padding: 1px 4px 0px 8px;
+	font-weight: normal;
+	font-size: 10px;
+	line-height: 13px;
+	text-transform: lowercase;
+	display: block;
+	text-decoration: none;
+}
+
+/* -------------
+ * Inputs
+ * ------------- */
+.jNiceInputWrapper {
+	background: transparent url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/css/elements/input.gif) no-repeat left top;
+	float:left;
+}
+
+.jNiceInputInner {
+	background: transparent url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/css/elements/input.gif) no-repeat right top;
+	padding: 2px 4px 2px 0;
+	margin: 0 0 0 4px;
+}
+
+.jNiceInputInner input {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color:#404040;	
+	line-height: 17px;
+	height: 17px;
+	*line-height: 15px;/* IE Hacks */
+	*height: 15px;/* IE Hacks */
+	vertical-align:middle;padding:0;margin:0;background:none;border:none;outline:none;
+}
+
+.jNiceInputWrapper_hover { background-position: left bottom; }
+.jNiceInputWrapper_hover .jNiceInputInner { background-position: right bottom; }
+
+
+/* -------------
+ * Radios
+ * ------------- */
+.jRadioWrapper { float: left; z-index: 2; }
+.jNiceRadio {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/jnice-radio.png) no-repeat center top;
+	height:18px;
+	width:18px;
+	position:absolute;left:0px;top:0px;cursor:pointer;vertical-align:middle;
+	outline:none;
+	}
+
+.b-form .jNiceRadio,
+.b-form .jNiceCheckbox, 
+.b-login .jNiceCheckbox {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-radio.png) no-repeat 0 0;
+	height:18px;
+	width:18px;
+	position:absolute;left:0px;top:1px;cursor:pointer;vertical-align:middle;
+	outline:none;
+	}
+.b-form .jNiceCheckbox,
+.b-login .jNiceCheckbox {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-chk.png) no-repeat 0 0;
+	}
+
+
+.b-form__chk .jNiceWrapper {
+	position:absolute;margin-left:-2em;;
+	}
+	.b-form__chk .jNiceCheckbox {
+		top:-1px;
+		}
+
+
+
+.b-form .jNiceChecked,
+.b-login .jNiceChecked {
+	background-position:0 100%;
+	}
+
+
+/* -------------
+ * Checkboxes
+ * ------------- */
+/*
+.jNiceCheckbox {
+	background: transparent url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/chk.gif) no-repeat center top;
+	height: 15px;
+	width: 15px;
+	position:absolute;left:0px;top:-1px;z-index:2;cursor:pointer;
+	border:none !important;
+	outline:none !important;
+}
+*/
+
+/* -------------
+ * Checked - Used for both Radio and Checkbox
+ * ------------- */
+.jNiceChecked { background-position: center bottom;}
+
+/* -------------
+ * Selects
+ * ------------- */
+.b-drop2 .jNiceWrapper {
+	z-index:99 !important;
+	}
+
+.jNiceWrapper select {border:none;margin:0;padding:0;}
+
+
+.b-select .jNiceWrapper {
+	width:140px !important;
+	background:transparent;
+}
+.b-select .jNiceWrapper SELECT{
+	left:-9999px;
+}
+.jNiceSelectWrapper {
+	height:24px;
+	left:0px;top:0;z-index:3;position:absolute;
+	width:142px !important;
+}
+	.jNiceSelectWrapper DIV {
+		height:24px;
+		margin:0;
+		position:relative;
+		}
+
+.jNiceWrapper iframe {position:absolute;z-index:1;width:100%;left:0px;top:0px;}
+
+.jNiceSelectWrapper .jNiceSelectText {
+	height:24px;
+	line-height:24px;
+	padding:0;
+	border:none 0;
+	overflow:hidden;float:none;position:absolute;
+	/*z-index:100;*/
+	width:100% !important;
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-ctrls.png) no-repeat -323px -48px;
+	cursor:pointer;
+	padding:0 0 0 8px;
+	color:#4e4f45;
+}
+
+.jNiceSelectWrapper .jNiceSelectOpen {
+	display:none;
+}
+
+.jNiceSelectWrapper ul {
+	top:24px;
+	background-color: #1b1b16;
+	border:solid 1px #1b1b16;
+	border-bottom:solid 1px #494841;
+	border-width:0 1px 1px;
+	/*height: 83px;*/
+	position:absolute;
+	left:0;
+	list-style:none;
+	display:none;
+	margin:0;
+	padding:0;
+	overflow-y:auto;
+	z-index:1000;
+	width:137px;
+	}
+
+.jNiceSelectWrapper ul a {
+	display:block;
+	padding:2px 8px;
+	text-decoration:none;
+	}
+
+.jNiceSelectWrapper ul a:hover { background:#4b493f; }
+.jNiceSelectWrapper ul a.selected {background: #67634f;}
+
+.jNiceFocus { }
+
+.jNiceHidden {opacity:0;z-index:-1;position:relative;}
+.jNiceHiddenCheckbox {opacity:0;z-index:-1;position:relative;display:block;filter: alpha(opacity = 0);}
+.jNiceWrapper {position:relative;vertical-align:top;}
+.jNiceWrapper input {outline:none;moz-outline:none;}
+
+
+
+.b-select__wide .jNiceWrapper {
+	width:312px !important;
+}
+.b-select__wide .jNiceSelectWrapper {
+	width:312px !important;
+	}
+.b-select__wide .jNiceSelectWrapper .jNiceSelectText {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-ctrls.png) no-repeat 0 -48px;
+	}
+.b-select__wide .jNiceSelectWrapper ul {
+	width:317px;
+	z-index:10;
+	}
+
+.b-select__year {
+	float: left;
+	/* width + right padding pixels */
+	width:76px;
+}
+.b-select__year .jNiceWrapper {
+	/* real width of control */
+	width:71px !important;
+}
+.b-select__year .jNiceSelectWrapper {
+	/* real width - 8px padding of inside element*/
+	width:63px !important;
+	}
+.b-select__year .jNiceSelectWrapper .jNiceSelectText {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-ctrls.png) no-repeat 0 -220px;
+	}
+.b-select__year .jNiceSelectWrapper ul {
+	/* real width - 2px of border*/
+	width:69px;
+	z-index:10;
+	}
+
+
+.b-select__day {
+	float: left;
+	/* width + right padding pixels */
+	width: 60px;
+}
+.b-select__day .jNiceWrapper {
+	/* real width of control */
+	width: 55px !important;
+}
+.b-select__day .jNiceSelectWrapper {
+	/* real width - 8px padding of inside element*/
+	width:47px !important;
+	}
+.b-select__day .jNiceSelectWrapper .jNiceSelectText {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-ctrls.png) no-repeat -71px -220px;
+	}
+.b-select__day .jNiceSelectWrapper ul {
+	/* real width - 2px of border*/
+	width:53px;
+	z-index:10;
+	}
+
+
+.b-select__month {
+	float: left;
+	/* width + right padding pixels */
+	width:116px !important;
+}
+.b-select__month .jNiceWrapper {
+	/* real width of control */
+	width:111px !important;
+}
+.b-select__month .jNiceSelectWrapper {
+	/* real width - 8px padding of inside element*/
+	width:103px !important;
+	}
+.b-select__month .jNiceSelectWrapper .jNiceSelectText {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-ctrls.png) no-repeat -126px -220px;
+	}
+.b-select__month .jNiceSelectWrapper ul {
+	/* real width - 2px of border*/
+	width:109px;
+	z-index:10;
+	}
+
+.b-select .jNiceWrapper .jNiceSelectWrapper DIV {height: 20px !important;}	
+
+
+.b-select__avarage .jNiceWrapper {
+	width:220px !important;
+}
+.b-select__avarage .jNiceSelectWrapper {
+	width:220px !important;
+	}
+.b-select__avarage .jNiceSelectWrapper .jNiceSelectText {
+	background:url(/web/20130116124155im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/form-ctrls.png) no-repeat 0px -196px;
+	width: 182px !important;
+	padding-right: 30px;	
+	}
+.b-select__avarage .jNiceSelectWrapper ul {
+	min-width:220px;
+	width: auto;
+	_width: 240px;
+	z-index:10;
+	}	
+/*
+     FILE ARCHIVED ON 12:41:55 Jan 16, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:54:20 Sep 30, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 120.565
+  exclusion.robots: 0.082
+  exclusion.robots.policy: 0.076
+  RedisCDXSource: 1.689
+  esindex: 0.008
+  LoadShardBlock: 100.326 (3)
+  PetaboxLoader3.datanode: 145.644 (4)
+  CDXLines.iter: 16.143 (3)
+  load_resource: 89.816
+  PetaboxLoader3.resolve: 36.969
+*/

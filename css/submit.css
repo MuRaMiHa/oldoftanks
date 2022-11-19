@@ -1,0 +1,78 @@
+/* input.bt-send in locale */
+input.bt-send{}
+
+/* input.bt-send:hover in locale */
+input.bt-send:hover {}
+
+label.error {
+display: block;
+color: #fff;
+padding: 4px 0;
+
+}
+.b-scribe__i label.error {
+	padding:0;
+	}
+span.text_black {
+	background:url(/web/20130116124152im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/input-text-200.png) no-repeat 0 0;
+	display:block;
+	}
+.b-scribe__i span.text_black {
+	padding:2px 0 0;
+	}
+.text_black INPUT {
+			clear:left;
+			/*background:url(/web/20130116124152im_/http://downloads.worldoftanks.ru/wotru/fc2js15/img/input-text-200.png) no-repeat 0 0;*/
+			background:none;
+			height:18px;
+			width: 188px;
+			padding:0;
+			border:none 0;
+			color:#4e4f45;
+			padding:3px 6px;
+			margin:0 0 6px;
+			}
+
+#subs_err {
+    color: red;
+}
+
+#subs_msg {
+    color: green;
+/*	overflow:hidden;
+	background:#001;*/
+	
+}
+
+.subs_content{
+    font-size: 2em;
+    margin-left: 30px;
+}
+
+.errorlist li {
+    background-position: 100% .3em;
+    /*padding: 4px 25px 4px 0;*/
+	color: #B2AE9A;
+	}
+
+/*
+     FILE ARCHIVED ON 12:41:52 Jan 16, 2013 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:54:20 Sep 30, 2021.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 106.65
+  exclusion.robots: 0.127
+  exclusion.robots.policy: 0.118
+  RedisCDXSource: 0.557
+  esindex: 0.009
+  LoadShardBlock: 77.597 (3)
+  PetaboxLoader3.datanode: 111.167 (4)
+  CDXLines.iter: 24.609 (3)
+  load_resource: 108.088
+  PetaboxLoader3.resolve: 56.755
+*/

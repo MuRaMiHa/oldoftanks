@@ -1,0 +1,99 @@
+.b-gallery-category {
+	list-style:none;
+	}
+.b-gallery-category .b-gc_category{
+	overflow:hidden;
+	width:100%;
+	}
+	.b-gc_category .btn-see-more {
+	float:right;
+	margin:15px 0 13px;
+	}
+
+	.b-gc_category .btn-watch-more {
+	float:right;
+	margin:15px 0 13px;
+	}
+	
+	.b-gc_category .hr {
+		clear:right
+		}
+	.b-gc_category H2 {
+		font:18px/1.2 arial,sans-serif;
+		color:#bfbeb6;
+		margin:.3em 0 .8em;
+		}		
+.b-gc__thumb {
+	list-style:none;
+	overflow:hidden;
+	width:100%;
+    margin: 8px 0 13px 0;
+	}
+.b-gc__thumb .item {
+	float:left;
+	width:152px;
+	margin:0 0 0 13px;		
+	}
+	.b-gc__thumb .first {
+		margin-left:0;
+		clear:left;
+		}
+	.b-gc__thumb H3 {
+		color:#bfbeb6;
+		font:bold 14px/1.2 arial,sans-serif;
+        word-wrap: break-word;
+		}
+	.b-gc__thumb .item a {
+		display:block;
+		border:1px solid #303028;
+		}
+		.b-gc__thumb .item a:hover {
+		border:1px solid #838274;
+		}
+		.b-gc__thumb .item img {
+		display:block;
+		border:1px solid #141411;
+		}
+.b-item-name {
+    margin: 0 0 3px 0;
+    overflow: hidden;
+}
+/* .btn-see-more in locale */
+.btn-see-more {}
+	.btn-see-more:hover {
+		background-position:0 -25px;
+		}
+	.btn-see-more span {
+		display:none;
+		}
+	
+
+/* .btn-watch-more in locale */
+.btn-watch-more {}
+	.btn-watch-more:hover {
+		background-position:0 -25px;
+		}
+	.btn-watch-more span {
+		display:none;
+		}
+
+/*
+     FILE ARCHIVED ON 18:56:08 Aug 11, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:27:48 Apr 04, 2022.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 148.44
+  exclusion.robots: 0.154
+  exclusion.robots.policy: 0.141
+  cdx.remote: 0.098
+  esindex: 0.013
+  LoadShardBlock: 113.373 (3)
+  PetaboxLoader3.datanode: 112.781 (4)
+  CDXLines.iter: 20.854 (3)
+  load_resource: 22.88
+*/
